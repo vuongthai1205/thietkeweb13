@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url("flaticon.eot");
+    src: url("flaticond41d.eot?#iefix") format("embedded-opentype"),
+        url("flaticon.woff2") format("woff2"),
+        url("flaticon.woff") format("woff"),
+        url("flaticon.ttf") format("truetype"),
+        url("flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("flaticon.svg#Flaticon") format("svg");
+    }
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: inherit;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-telegram:before {
+    content: "\f101";
+}
+.flaticon-bitcoin-logo:before {
+    content: "\f102";
+}
+.flaticon-down-chevron:before {
+    content: "\f103";
+}
+.flaticon-search:before {
+    content: "\f104";
+}
+.flaticon-currency-exchange:before {
+    content: "\f105";
+}
+.flaticon-bitcoin:before {
+    content: "\f106";
+}
+.flaticon-nft:before {
+    content: "\f107";
+}
+.flaticon-shield:before {
+    content: "\f108";
+}
+.flaticon-bitcoin-up:before {
+    content: "\f109";
+}
+.flaticon-bitcoin-2:before {
+    content: "\f10a";
+}
+.flaticon-non-fungible-token:before {
+    content: "\f10b";
+}
+.flaticon-bitcoin-wallet:before {
+    content: "\f10c";
+}
+.flaticon-atm:before {
+    content: "\f10d";
+}
+.flaticon-quote:before {
+    content: "\f10e";
+}
+.flaticon-left-arrow:before {
+    content: "\f10f";
+}
+.flaticon-file:before {
+    content: "\f110";
+}
+.flaticon-play:before {
+    content: "\f111";
+}
+.flaticon-blockchain:before {
+    content: "\f112";
+}
+.flaticon-blockchain-1:before {
+    content: "\f113";
+}
+.flaticon-bank:before {
+    content: "\f114";
+}
+.flaticon-shield-1:before {
+    content: "\f115";
+}
+.flaticon-checked:before {
+    content: "\f116";
+}
+.flaticon-email:before {
+    content: "\f117";
+}
+.flaticon-call:before {
+    content: "\f118";
+}
+.flaticon-like:before {
+    content: "\f119";
+}
+.flaticon-at:before {
+    content: "\f11a";
+}
+.flaticon-link:before {
+    content: "\f11b";
+}
+.flaticon-placeholder:before {
+    content: "\f11c";
+}
+.flaticon-share:before {
+    content: "\f11d";
+}
+.flaticon-star:before {
+    content: "\f11e";
+}
+.flaticon-close:before {
+    content: "\f11f";
+}
+.flaticon-info:before {
+    content: "\f120";
+}
+.flaticon-remove:before {
+    content: "\f121";
+}
+.flaticon-check:before {
+    content: "\f122";
+}
+.flaticon-warning:before {
+    content: "\f123";
+}
+.flaticon-close-1:before {
+    content: "\f124";
+}
+.flaticon-close-button:before {
+    content: "\f125";
+}
+.flaticon-line-chart:before {
+    content: "\f126";
+}

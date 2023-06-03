@@ -1,0 +1,43 @@
+.elementor-kit-4334{--e-global-color-primary:#AAF32B;--e-global-color-secondary:#16B0CB;--e-global-color-text:#4D4D4D;--e-global-color-accent:#AAF32B;--e-global-color-14b7977:#FFFFFF;--e-global-color-b24d652:#16B0CB;--e-global-typography-primary-font-family:"Space Grotesk";--e-global-typography-primary-font-weight:700;--e-global-typography-secondary-font-family:"Space Grotesk";--e-global-typography-secondary-font-weight:700;--e-global-typography-text-font-family:"DM Sans";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"DM Sans";--e-global-typography-accent-font-weight:400;--e-global-typography-5fd4bb3-font-family:"Allan";--e-preloader-animation:pulse;--e-preloader-animation-duration:1450ms;--e-preloader-delay:0ms;--e-preloader-width:21%;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-con{--container-max-width:1200px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-4334 e-page-transition{background-color:#000000;}@media(max-width:1200px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.elementor-widget-video .elementor-wrapper iframe,
+.elementor-widget-video .elementor-wrapper video {
+    background-color: transparent !important;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient( 240deg, rgb(17, 20, 35), rgb(16, 25, 60), rgb(33, 43, 58), rgb(28, 35, 57), rgb(20, 22, 43), rgb(33, 43, 58), rgb(20, 22, 43), rgb(17, 20, 37), rgb(20, 22, 41) );
+    background-size: auto;
+  background-size: 100% 100%;
+  animation: gradient 15s ease-in-out infinite;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.star {
+    position: fixed;
+    background: white;
+    border-radius: 50%;
+    transition: 200ms ease-in;
+    z-index: -1;  
+}/* End custom CSS */
